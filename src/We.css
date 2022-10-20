@@ -1,0 +1,44 @@
+.we {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+.we_text {
+  display: flex;
+  flex-direction: column;
+  color: #48555b;
+  font-family: "OpenSans";
+  width: 25rem;
+}
+.we_text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.we_fotos {
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 1.2rem;
+}
+.we_fotos img {
+  z-index: -1;
+}
+.we_fotos span {
+  color: white;
+  position: absolute;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.we_fotos_first {
+  position: relative;
+  margin-left: 1rem;
+}
+.we_fotos_second {
+  position: relative;
+  margin-left: 1rem;
+}
+.we_fotos_third {
+  position: relative;
+  margin-left: 1rem;
+}

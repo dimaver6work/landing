@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: "OpenSans";
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline;
+  margin: 1.5rem;
+  color: #48555b;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  color: #00a4e5;
+}

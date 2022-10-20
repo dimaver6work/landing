@@ -1,0 +1,38 @@
+.city {
+  display: flex;
+  flex-direction: column;
+  color: #48555b;
+  font-family: "OpenSans";
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 70vh;
+  border: none;
+}
+
+.city_bg {
+  z-index: -1;
+  position: absolute;
+  height: 92%;
+}
+.city_center {
+  width: 35%;
+  text-align: center;
+}
+.city_title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+
+.city_button {
+  margin: 0 auto;
+  background: #00a4e5;
+  width: 10rem;
+  height: 2.5rem;
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2.3rem;
+  padding: 0.2rem;
+}

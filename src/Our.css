@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "OpenSans";
+  color: #48555b;
+  margin-bottom: 3rem;
+}
+.line {
+  border: 1px solid #00a4e5;
+}

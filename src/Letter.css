@@ -1,0 +1,36 @@
+.letter {
+  background-color: #171819;
+  font-family: "OpenSans";
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 4rem;
+  margin-top: -2.6rem;
+}
+
+.letter_title {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.letter_right {
+  display: flex;
+}
+.letter_input {
+  margin-left: 6rem;
+  border: 1px solid #979797;
+  width: 20rem;
+}
+.letter_button {
+  margin: 0 auto;
+  background: #00a4e5;
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  padding: 0.2rem;
+}

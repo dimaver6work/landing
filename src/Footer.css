@@ -1,0 +1,27 @@
+.footer_bg {
+  background-color: #141a20;
+}
+.footer {
+  display: flex;
+  font-family: "OpenSans";
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2rem;
+}
+.colomn {
+  margin: 3rem;
+}
+.logo_footer {
+  margin: 1rem 0;
+}
+
+.footer_2 {
+  background-color: #171819;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}

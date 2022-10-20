@@ -1,0 +1,35 @@
+.bg {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+}
+
+.first_conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.first_conteiner h1,
+.first_conteiner h3 {
+  color: white;
+}
+
+.logo_main {
+  margin-top: 4rem;
+}
+.center h1 {
+  font-size: 4rem;
+  margin-top: 5.3rem;
+}
+.center h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+.bot {
+  padding-bottom: 6.25rem;
+}
