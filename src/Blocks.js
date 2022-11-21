@@ -1,8 +1,8 @@
 import React from "react";
-import "./Blocks.css";
 import first from "./assets/first_2.png";
 import second from "./assets/second_2.png";
 import third from "./assets/third_2.png";
+
 const Blocks = () => {
   return (
     <div className="blocks">

@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactComponent as Logo } from "./assets/logo-black.svg";
-import "./Navbar.css";
 const Navbar = () => {
   return (
     <div className="navbar">

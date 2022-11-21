@@ -1,5 +1,4 @@
 import React from "react";
-import "./Our.css";
 import { ReactComponent as Line } from "./assets/line.svg";
 
 const Our = () => {

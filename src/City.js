@@ -1,5 +1,4 @@
 import React from "react";
-import "./City.css";
 import bg from "./assets/bg_2.png";
 
 const City = () => {

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import React from "react";
 import Main from "./Main";
 import Navbar from "./Navbar";
@@ -15,12 +15,15 @@ function App() {
       <Main />
 
       <div className="conteiner">
-        <Navbar />
-        <Our />
-        <We />
-        <Capabilities />
-        <Blocks />
-        <City />
+        <div className="all">
+          <Navbar />
+
+          <Our />
+          <We />
+          <Capabilities />
+          <Blocks />
+          <City />
+        </div>
       </div>
       <Letter />
       <Footer />

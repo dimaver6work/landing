@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 7rem;
+  flex-wrap: wrap;
 }
 .we_text {
   display: flex;
@@ -19,6 +20,8 @@
   display: flex;
   margin-left: 3rem;
   margin-top: 1.2rem;
+  flex-wrap: wrap;
+  
 }
 .we_fotos img {
   z-index: -1;
@@ -26,7 +29,7 @@
 .we_fotos span {
   color: white;
   position: absolute;
-  font-size: 1.6rem;
+          @include adaptiv-font(24, 14);
   padding: 1rem;
 }
 

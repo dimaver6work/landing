@@ -1,8 +1,4 @@
-.bg {
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-}
+
 
 .first_conteiner {
   display: flex;
@@ -10,8 +6,13 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 1.5rem;
+
+    background-image: url(./assets/bg.png);
+     background-attachment: fixed;
+    background-size: 100% 100%
 }
 
 .first_conteiner h1,
@@ -23,7 +24,7 @@
   margin-top: 4rem;
 }
 .center h1 {
-  font-size: 4rem;
+          @include adaptiv-font(55, 25);
   margin-top: 5.3rem;
 }
 .center h3 {

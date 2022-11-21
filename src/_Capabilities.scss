@@ -2,23 +2,27 @@
   display: flex;
   color: #48555b;
   margin-bottom: 5rem;
+  justify-content: space-between;
+ 
+  
 }
 
 .capabilities_title {
-  font-size: 1.2rem;
+                        @include adaptiv-font(20, 14);
   font-weight: bold;
 }
 .capabilities_right {
   display: flex;
-  justify-content: space-between;
   margin-left: 7rem;
-  width: 70%;
+  flex-wrap: wrap;
+    
 }
 .capabilities_text {
-  font-size: 0.9rem;
+                      @include adaptiv-font(16, 12);
+                      width: 400px;
 }
 .capabilities_button {
-  margin-left: 2.5rem;
+  margin-left: -5rem;
   background: #00a4e5;
   width: 10rem;
   height: 2.5rem;
@@ -27,4 +31,5 @@
   font-size: 0.9rem;
   line-height: 2.3rem;
   padding: 0.2rem;
+
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import "./We.css";
 import first from "./assets/first.png";
 import second from "./assets/second.png";
 import third from "./assets/third.png";

@@ -20,9 +20,9 @@
   text-align: center;
 }
 .city_title {
-  font-size: 4rem;
+                        @include adaptiv-font(55, 24);
   margin-bottom: 2rem;
-  line-height: 3rem;
+  line-height: 3.3rem;
 }
 
 .city_button {

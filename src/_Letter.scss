@@ -2,16 +2,17 @@
   background-color: #171819;
   font-family: "OpenSans";
   display: flex;
-  margin: 0 auto;
   align-items: center;
   justify-content: center;
   border: none;
   padding: 4rem;
   margin-top: -2.6rem;
+  border: 1px solid black;
+  flex-wrap: wrap;
 }
 
 .letter_title {
-  font-size: 3.5rem;
+                      @include adaptiv-font(55, 20);
   color: white;
 }
 
@@ -30,7 +31,7 @@
   height: 3rem;
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  @include adaptiv-font(24, 12);
   line-height: 2.6rem;
   padding: 0.2rem;
 }
